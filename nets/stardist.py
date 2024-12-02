@@ -63,7 +63,6 @@ class stardist_Proposal(nn.Module):
         """
         基于提取到的边界框参数排列组合生成生成预选框
         bboxes: 从实例分割提取的物体边界框参数
-        iou_threshold: 用于筛选预选框的 IoU 阈值
         """
         Top_lefts = []
         Bottom_rights = []
